@@ -1,11 +1,11 @@
 import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import {setQuestions} from './store/quizSlice'
-import { questions } from './data/questions'
-import ProgressIndicator from './components/ProgressIndicator'
-import QuestionCard from './components/QuestionCard'
-import Controls from './components/Controls'
-import Results from './components/Results'
+import { questions } from './datas/questions'
+import ProgressIndicator from './component/ProgressIndicator'
+import QuestionCard from './component/QuestionCard'
+import Controls from './component/Controls'
+import Results from './component/Results'
 
 function App() {
   const dispatch = useDispatch()
